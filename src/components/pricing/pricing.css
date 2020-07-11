@@ -1,0 +1,8 @@
+.header-price h5 {
+  flex: 1;
+  text-align: center;
+}
+
+.header-price div span {
+  flex: 1;
+}

@@ -1,0 +1,4 @@
+.flex1 {
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+}

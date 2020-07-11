@@ -1,0 +1,25 @@
+.hero {
+  margin-top: 12vh;
+  height: 70vh;
+  background-image: url(background.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.form {
+  height: 60vh;
+}
+
+.check {
+  width: 155px;
+}
+
+.span1 {
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+}
+
+.number {
+  width: 50px;
+}

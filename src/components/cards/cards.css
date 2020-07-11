@@ -1,0 +1,15 @@
+.card-size {
+  margin: auto;
+}
+
+.card-li {
+  padding: 10px 0px;
+  margin: 10px 0px;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+.card-li:hover {
+  background-color: black;
+  color: white;
+}

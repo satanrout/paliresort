@@ -1,0 +1,11 @@
+ul li {
+  margin: 0 5px;
+  padding: 0 5px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  height: 12vh;
+  width: 100vw;
+}
