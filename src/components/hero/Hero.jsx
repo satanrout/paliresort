@@ -3,46 +3,54 @@ import "./hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero flex items-center justify-end ph5">
+    <div className="hero flex items-center justify-end ph5-ns">
       <form
-        className="form grow bg-light-blue br3 pa3 ma2 dib bw2 shadow-5"
-        action="mailto:satyaranjanrout81@gmail.com"
+        className="hero_form form br3 pa3-ns ma2-ns dib bw2 shadow-5"
+        action="mailto:satyaranjanrout81@gmail.com?"
         method="post"
-        type="text/plain"
+        encType="text/plain"
       >
         <div className="ma3 flex">
-          <span className="flex flex-column">
-            <label htmlFor="check in">Check in</label>
+          <span className="flex span1 flex-column">
+            <label>Check in</label>
             <input
-              className="check"
+              className="check br-pill ba ph2"
               name="check in"
               type="date"
-              htmlFor="check in"
             />
           </span>
-          <span className="flex flex-column">
-            <label htmlFor="check out">Check out</label>
+          <span className="flex span1 flex-column">
+            <label>Check out</label>
             <input
-              className="check"
+              className="check br-pill ba ph2"
               name="check out"
               type="date"
-              htmlFor="check out"
             />
           </span>
         </div>
         <div className="ma3 flex">
           <span className="span1 flex flex-column">
-            <label htmlFor="quantity">Adults</label>
-            <input className="number" type="number" name="children" step="1" />
+            <label>Adults</label>
+            <input
+              className="br-pill ba ph2 number"
+              type="number"
+              name="children"
+              step="1"
+            />
           </span>
           <span className="span1 flex flex-column">
-            <label htmlFor="quantity-children">Children</label>
-            <input className="number" type="number" name="children" step="1" />
+            <label>Children</label>
+            <input
+              className="br-pill ba ph2 number"
+              type="number"
+              name="children"
+              step="1"
+            />
           </span>
         </div>
         <div className="ma3 flex flex-column">
-          <label htmlFor="room">Room Type</label>
-          <select className="room" name="room type">
+          <label>Room Type</label>
+          <select className="room br-pill ba ph2" name="room type">
             <option value="Select Room Type">Select Room Type</option>
             <option value="Single Room">Single Room</option>
             <option value="Double Room">Double Room</option>
@@ -50,15 +58,19 @@ const Hero = () => {
           </select>
         </div>
         <div className="ma3 flex flex-column">
-          <label htmlFor="name">Name</label>
-          <input className="name" name="name" type="text" htmlFor="name" />
+          <label>Name</label>
+          <input className="br-pill ba ph2 name" name="name" type="text" />
         </div>
         <div className="ma3 flex flex-column">
-          <label htmlFor="email">Email</label>
-          <input className="email" type="email" name="email" />
+          <label>Email</label>
+          <input className="br-pill ba ph2 email" type="email" name="email" />
         </div>
         <div>
-          <input className="btn" type="submit" value="Send" />
+          <input
+            className="btn ml3 f6 grow no-underline br-pill ba ph2 mb2 dib black"
+            type="submit"
+            value="Send"
+          />
         </div>
       </form>
     </div>

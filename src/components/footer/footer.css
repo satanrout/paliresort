@@ -2,3 +2,18 @@
   -ms-flex: 1; /* IE 10 */
   flex: 1;
 }
+
+ol li a {
+  color: white;
+  transition: all 0.1s;
+}
+ol li a:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_mo {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+}

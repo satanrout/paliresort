@@ -6,3 +6,12 @@
 .header-price div span {
   flex: 1;
 }
+
+.w-70 .flex span {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}

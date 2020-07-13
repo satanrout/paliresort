@@ -6,11 +6,13 @@ import nature from "../../images/pali_nature.jpg";
 
 const AboutHero = () => {
   return (
-    <div className="mt6 pa5 bg-white">
-      <h2>About Us</h2>
-      <div className="flex mv4 justify-between">
-        <img src={cleanroom} width="450px" alt="beds" />
-        <div className="ttc w-50">
+    <div className="mt6 pa5-ns pa1 bg-white">
+      <h2 className="tc">About Us</h2>
+      <div className="flex mv4 about_mo justify-between">
+        <div>
+          <img src={cleanroom} width="400px" alt="beds" />
+        </div>
+        <div className="ttc w-50-ns">
           <h2>clean, beautiful and comfortable.</h2>
           <p>
             In Pali Beach Resort We have known for offering clean, beautiful and
@@ -20,9 +22,11 @@ const AboutHero = () => {
           </p>
         </div>
       </div>
-      <div className="flex mv4 flex-row-reverse justify-between">
-        <img src={children} width="450" alt="fun" />
-        <div className="ttc w-50">
+      <div className="flex mv4 flex-row-reverse about_mo justify-between">
+        <div>
+          <img src={children} width="400" alt="fun" />
+        </div>
+        <div className="ttc w-50-ns">
           <h2>perfect for childrens</h2>
           <p>
             this resort is a heaven for kids. it has everything to enjoy the
@@ -30,9 +34,9 @@ const AboutHero = () => {
           </p>
         </div>
       </div>
-      <div className="flex mv4 justify-between">
-        <img src={nature} width="450" alt="nature" />
-        <div className="ttc w-50">
+      <div className="flex mv4 about_mo justify-between">
+        <img src={nature} width="400" alt="nature" />
+        <div className="ttc w-50-ns">
           <h2>enjoy the nature</h2>
           <p>you will find many place to enjoy the nature here.</p>
         </div>

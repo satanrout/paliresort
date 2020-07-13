@@ -1,0 +1,35 @@
+.picnic_card {
+  height: 350px;
+  width: 50vh;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.picnic_card div,
+.picnic_card2 div {
+  display: flex;
+  padding: 5px;
+}
+
+.picnic_card div span {
+  flex: 1;
+}
+
+.spa {
+  flex: 2;
+}
+
+.spa2 {
+  flex: 1;
+}
+
+.picnic_card2 {
+  height: auto;
+  width: 50vh;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

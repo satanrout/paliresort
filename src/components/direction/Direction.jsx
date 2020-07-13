@@ -3,9 +3,9 @@ import "./direction.css";
 
 const Direction = () => {
   return (
-    <div className="ph5">
+    <div className="ph5-ns">
       <h2 className="tc">Directions</h2>
-      <div className="flex">
+      <div className="flex direction_mo">
         <article class="center mw5 mw6-ns hidden ba ma4">
           <h3 class="f4 bg-near-black white mv0 pv2 ph3">By Road</h3>
           <div class="pa3 bt">

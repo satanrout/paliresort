@@ -19,7 +19,7 @@ import pali_waterpark2 from "../../images/pali_waterpark2.png";
 
 const Gallery = () => {
   return (
-    <div className="flex flex-wrap justify-center mt6 ph5">
+    <div className="flex flex-wrap justify-center mt6 ph1 ph5-ns">
       <img
         src={pali_beds}
         width="512px"

@@ -9,6 +9,8 @@ import Header from "./components/header/Header";
 import Contact from "./components/contact/Contact";
 import Gallery from "./components/gallery/Gallery";
 import Pricing from "./components/pricing/Pricing";
+import Picnic from "./components/picnic/picnic";
+import Amenities from "./components/amenities/amenities";
 
 class App extends React.Component {
   render() {
@@ -20,6 +22,8 @@ class App extends React.Component {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/pricing" component={Pricing} />
+        <Route exact path="/picnic" component={Picnic} />
+        <Route exact path="/amenities" component={Amenities} />
         <Footer />
       </div>
     );

@@ -3,8 +3,13 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <div className="pa4 black-80 ma6 ">
-      <form className="measure center">
+    <div className="pa4 black-80 ma6-ns mt6 ">
+      <form
+        action="mailto:satyaranjanrout81@gmail.com"
+        method="post"
+        type="text/plain"
+        className="measure center"
+      >
         <fieldset className="ba b--transparent ph0 mh0" />
         <legend className="f4 fw6 ph0 mh0 contact">Contact Us</legend>
         <div className="mt3">
@@ -24,8 +29,8 @@ const Contact = () => {
           </label>
           <input
             className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
-            type="password"
-            name="password"
+            type="text"
+            name="name"
             id="password"
           />
         </div>

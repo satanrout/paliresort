@@ -1,10 +1,11 @@
 .card-size {
   margin: auto;
+  height: 500px;
 }
 
 .card-li {
-  padding: 10px 0px;
-  margin: 10px 0px;
+  padding: 10px 5px;
+  margin: 10px 5px;
   border-radius: 3px;
   transition: all 0.2s;
 }
@@ -12,4 +13,31 @@
 .card-li:hover {
   background-color: black;
   color: white;
+}
+
+.img {
+  flex: 2;
+}
+
+.text {
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-size {
+    flex-direction: column;
+  }
+
+  .img {
+    margin: auto;
+  }
+
+  .list {
+    margin: auto;
+    padding: 0;
+  }
+
+  .card-list {
+    padding: 5px;
+  }
 }

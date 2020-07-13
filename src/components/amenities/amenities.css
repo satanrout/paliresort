@@ -1,0 +1,15 @@
+.sar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+img {
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .amen_mo {
+    flex-direction: column;
+  }
+}
