@@ -48,16 +48,16 @@ class Cards extends React.Component {
         </div>
         <div className="text flex items-center">
           <ul className="list">
-            <li onClick={this.image1} className="bg-white grey card-li">
+            <li onClick={this.image1} className="pointer bg-white grey card-li">
               Enjoy Your Day With Our Water Park.
             </li>
-            <li onClick={this.image2} className="bg-white grey card-li">
+            <li onClick={this.image2} className="pointer bg-white grey card-li">
               Take a Break And Chill.
             </li>
-            <li onClick={this.image3} className="bg-white grey card-li">
+            <li onClick={this.image3} className="pointer bg-white grey card-li">
               Entrance Of Pali Beach Resort.
             </li>
-            <li onClick={this.image4} className="bg-white grey card-li">
+            <li onClick={this.image4} className="pointer bg-white grey card-li">
               Perfect For Seniors.
             </li>
           </ul>
