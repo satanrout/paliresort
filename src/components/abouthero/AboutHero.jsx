@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutHero.css";
-import cleanroom from "../../images/pali_cleanroom.png";
-import children from "../../images/pali_children.jpg";
-import nature from "../../images/pali_nature.jpg";
+import cleanroom from "../../images/pali_cleanroom.webp";
+import children from "../../images/pali_children.webp";
+import nature from "../../images/pali_nature.webp";
 
 const AboutHero = () => {
   return (

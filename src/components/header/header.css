@@ -69,7 +69,7 @@ ul li a:hover {
   }
 
   .cross div {
-    display: inline-block;
+    display: block;
   }
 
   .nav_mb {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./amenities.css";
-import pali_room from "../../images/pali_room.jpg";
-import pali_senior from "../../images/pali_senior.png";
+import pali_room from "../../images/pali_room.webp";
+import pali_senior from "../../images/pali_senior.webp";
 
 const Amenities = () => {
   return (
