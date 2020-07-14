@@ -1,9 +1,9 @@
 import React from "react";
 import "./cards.css";
-import pali_delux from "../../images/pali_delux.jpg";
-import pali_entrance from "../../images/pali_entrance.png";
-import pali_waterpark from "../../images/pali_waterpark.jpg";
-import pali_senior from "../../images/pali_senior.png";
+import pali_delux from "../../images/pali_delux.webp";
+import pali_entrance from "../../images/pali_entrance.webp";
+import pali_waterpark from "../../images/pali_waterpark.webp";
+import pali_senior from "../../images/pali_senior.webp";
 
 class Cards extends React.Component {
   constructor() {
